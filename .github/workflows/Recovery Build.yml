@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       MANIFEST_URL:
-        description: 'https://github.com/PitchBlackRecoveryProject/manifest_pb'
+        description: 'Manifest url'
         required: true
-        default: 'PLACEHOLDER'
+        default: 'https://github.com/PitchBlackRecoveryProject/manifest_pb'
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
