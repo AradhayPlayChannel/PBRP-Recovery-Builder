@@ -22,23 +22,23 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'PLACEHOLDER'
+        default: 'device/tecno/kg5'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'PLACEHOLDER'
+        default: 'kg5'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'PLACEHOLDER'
+        default: 'kg5'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
-        default: 'PLACEHOLDER'
+        default: 'boot'
       USER_NAME:
         description: 'Git Username'
         required: true
-        default: 'PLACEHOLDER'
+        default: 'aradhayplaychannel'
       USER_EMAIL:
         description: 'Git Email'
         required: true
