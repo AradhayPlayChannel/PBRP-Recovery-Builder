@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       MANIFEST_URL:
-        description: 'MANIFEST_URL (if want to use SSH keys, use git@github.com:XXXXX)'
+        description: 'https://github.com/PitchBlackRecoveryProject/manifest_pb'
         required: true
         default: 'PLACEHOLDER'
       MANIFEST_BRANCH:
